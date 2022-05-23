@@ -91,21 +91,21 @@
 // }
 // locationOfuser();
 //60
-function randomDte(){
-    var x=getrnd(1,12)+"/"+getrnd(1,31)+"/"+getrnd(1990,2022)
+// function randomDte(){
+//     var x=getrnd(1,12)+"/"+getrnd(1,31)+"/"+getrnd(1990,2022)
 
-    var datee=new Date(x)
-    console.log(datee);
+//     var datee=new Date(x)
+//     console.log(datee);
 
 
-}
+// }
 
-randomDte();
+// randomDte();
 
-function getrnd(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
-  }
-  getrnd();
+// function getrnd(min, max) {
+//     return Math.floor(Math.random() * (max - min) + min);
+//   }
+//   getrnd();
 
 
 
